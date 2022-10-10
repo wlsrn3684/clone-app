@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/clone-app/static/js/main.b9313e85.js",
+    "index.html": "/clone-app/index.html",
+    "main.b9313e85.js.map": "/clone-app/static/js/main.b9313e85.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b9313e85.js"
+  ]
+}
