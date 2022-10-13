@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import carouselData from "../../constant/carouselData";
+import carouselData from "../../constant/data/carouselData";
 
 const Wrapper = styled.div`
   padding-top: 320px;

@@ -1,4 +1,4 @@
-import IStarProps from "../type/start";
+import IStarProps from "../../type/start";
 
 const starData: IStarProps[] = [
   { left: "-129px", top: "160px", size: "9.53275px", duration: "3s", delay: "5s" },

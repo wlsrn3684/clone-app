@@ -1,4 +1,4 @@
-import ITagProps from "../type/tag";
+import ITagProps from "../../type/tag";
 
 const tagData: ITagProps[] = [
   {

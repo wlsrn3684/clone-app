@@ -1,4 +1,4 @@
-import IUseCaseProps from "../type/usecase";
+import IUseCaseProps from "../../type/usecase";
 
 const useCaseData: IUseCaseProps[] = [
   {

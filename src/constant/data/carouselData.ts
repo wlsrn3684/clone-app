@@ -1,4 +1,4 @@
-import ICarouselProps from "../type/carousel";
+import ICarouselProps from "../../type/carousel";
 
 const carouselData: ICarouselProps[] = [
   {

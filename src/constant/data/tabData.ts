@@ -1,4 +1,4 @@
-import ITabProps from "../type/tab";
+import ITabProps from "../../type/tab";
 
 const tabData: ITabProps[] = [
   {

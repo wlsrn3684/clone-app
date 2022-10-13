@@ -1,4 +1,4 @@
-import IProductImageProps from "../type/productImage";
+import IProductImageProps from "../../type/productImage";
 
 const productImageData: IProductImageProps[] = [
   {

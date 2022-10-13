@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import productData from "../../constant/productData";
+import productData from "../../constant/data/productData";
 
 const Wrapper = styled.div`
   padding-top: 64px;

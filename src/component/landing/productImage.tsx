@@ -1,6 +1,6 @@
 import React, { VideoHTMLAttributes } from "react";
 import styled from "styled-components";
-import productImageData from "../../constant/productImageData";
+import productImageData from "../../constant/data/productImageData";
 import IProductImageProps from "../../type/productImage";
 
 const Wrapper = styled.div`
@@ -33,13 +33,13 @@ const Item = styled.div`
   z-index: -1;
 `;
 
-const Inner = styled.div`
+export const Inner = styled.div`
   width: 100%;
   height: auto;
   position: relative;
 `;
 
-const VideoComponent = styled.div`
+export const VideoComponent = styled.div`
   height: 100%;
   outline: none;
 
@@ -55,14 +55,14 @@ const VideoComponent = styled.div`
   }
 `;
 
-const WindowMask = styled.div`
+export const WindowMask = styled.div`
   padding: 0;
   display: flex;
   flex-direction: column;
   filter: drop-shadow(0px 8px 24px rgba(29, 140, 242, 0.5));
 `;
 
-const WindowHeader = styled.div`
+export const WindowHeader = styled.div`
   display: flex;
   height: 15px;
   border-top-left-radius: 8px;
@@ -75,7 +75,7 @@ const WindowHeader = styled.div`
   }
 `;
 
-const Circle = styled.span`
+export const Circle = styled.span`
   background: #ffffff;
   height: 5px;
   width: 5px;
@@ -83,7 +83,7 @@ const Circle = styled.span`
   margin-right: 4px;
 `;
 
-const WindowContent = styled.div`
+export const WindowContent = styled.div`
   display: flex;
   -webkit-box-flex: 1;
   flex-grow: 1;

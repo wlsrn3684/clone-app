@@ -1,4 +1,4 @@
-import IProductProps from "../type/product";
+import IProductProps from "../../type/product";
 
 const productData: IProductProps[] = [
   {

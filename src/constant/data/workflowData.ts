@@ -1,4 +1,4 @@
-import IWorkflowProps from "../type/workflow";
+import IWorkflowProps from "../../type/workflow";
 
 const workflowData: IWorkflowProps[] = [
   {

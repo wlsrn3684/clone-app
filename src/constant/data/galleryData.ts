@@ -1,4 +1,4 @@
-import IGalleryProps from "../type/gallery";
+import IGalleryProps from "../../type/gallery";
 
 const galleryData: IGalleryProps[] = [
   {

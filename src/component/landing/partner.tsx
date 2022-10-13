@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import galleryData from "../../constant/galleryData";
+import galleryData from "../../constant/data/galleryData";
 
 const Wrapper = styled.div`
   padding-top: 0px;

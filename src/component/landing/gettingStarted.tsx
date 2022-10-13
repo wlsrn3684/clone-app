@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
-import starData from "../../constant/starData";
-import tagData from "../../constant/tagData";
+import starData from "../../constant/data/starData";
+import tagData from "../../constant/data/tagData";
 import IStarProps from "../../type/start";
 import ITagProps from "../../type/tag";
 
@@ -38,7 +38,7 @@ const twinkle = keyframes`
   }
 `;
 
-const Star = styled.div<IStarProps>`
+export const Star = styled.div<IStarProps>`
   background-image: url("https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/parallax/integrations/star.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +351,7 @@ function GettingStarted(): JSX.Element {
     <Wrapper>
       <Container>
         <StarCanvas>
-          {starData.map((data, i) => (
+          {starData.map((data: IStarProps, i: number) => (
             <Star {...data} key={`star-${i}`} />
           ))}
         </StarCanvas>
@@ -370,7 +370,7 @@ function GettingStarted(): JSX.Element {
         <div>
           <TagWrapper>
             <TagGroup>
-              {tagData.map((data, i) => (
+              {tagData.map((data: ITagProps, i: number) => (
                 <Tag
                   borderColor={data.borderColor}
                   isActive={activeState[i]}

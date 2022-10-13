@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import tabData from "../../constant/tabData";
-import workflowData from "../../constant/workflowData";
+import tabData from "../../constant/data/tabData";
+import workflowData from "../../constant/data/workflowData";
 
 const Wrapper = styled.div`
   padding-top: 150px;
